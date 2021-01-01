@@ -1,0 +1,263 @@
+{% extends 'core/base.html' %} {% load static %} {% block corecss %}
+<link rel="stylesheet" href="{% static 'core/css/core.css' %}" />
+{% endblock corecss %} {% block content %}
+<style>
+  #header {
+    background: url(https://images.unsplash.com/photo-1415795854641-f4a487a0fdc8?ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80)
+      center center / cover no-repeat;
+  }
+</style>
+<!-- <div class="container mt-5">
+  <h1 class="text-warning mb-5 border-bottom border-warning">SERVICES</h1>
+  <div class="row text-white">
+    <div class="col-sm-4 text-center">
+      <i class="fas fa-search-dollar fa-2x mb-3 text-warning"></i>
+      <h3>HTML/CSS</h3>
+      <p>
+        I will provide you professional design of web pages using HTML/CSS. It will include dynamics pages too.
+      </p>
+    </div>
+
+    <div class="col-sm-4 text-center">
+      <i class="fas fa-palette fa-2x mb-3 text-warning"></i>
+      <h3>Graphic Designing</h3>
+      <p>
+        Provide different style of Designing including Poster Design,Flyer Design,Brochure Design,Business Card etc.
+      </p>
+    </div>
+
+    <div class="col-sm-4 text-center">
+      <i class="fas fa-code fa-2x mb-3 text-warning"></i>
+      <h3>Flutter UI</h3>
+      <p>
+        Design different UI of android app using Flutter platform.
+      </p>
+    </div>
+  </div>
+
+  <div class="row text-white mt-5">
+    <div class="col-sm-4 text-center">
+      <i class="fas fa-ad fa-2x mb-3 text-warning"></i>
+      <h3>Python</h3>
+      <p>
+        I will do mini projects in Python.Also check bugs in Projects too.
+      </p>
+    </div>
+
+    <div class="col-sm-4 text-center">
+      <i class="fab fa-apple fa-2x mb-3 text-warning"></i>
+      <h3>Django</h3>
+      <p>
+        Using Django Framework, I will develop different Web Apps and Websites for customers.
+      </p>
+    </div>
+
+    <div class="col-sm-4 text-center">
+      <i class="fab fa-android fa-2x mb-3 text-warning"></i>
+      <h3>Web Development</h3>
+      <p>
+        Having 2 years of experience in Web Development, develop different web apps for different function.
+      </p>
+    </div>
+  </div>
+
+  <div class="row text-white mt-5">
+    <div class="col-sm-4 text-center">
+      <i class="fas fa-search-dollar fa-2x mb-3 text-warning"></i>
+      <h3>C++/C</h3>
+      <p>
+        I will Do mini tasks and Projects using C++ and C language.
+      </p>
+    </div>
+
+    <div class="col-sm-4 text-center">
+      <i class="fas fa-pencil-alt fa-2x mb-3 text-warning"></i>
+      <h3>Bootstrap</h3>
+      <p>
+        Will design professional dynamics web pages using Bootstrap.
+      </p>
+    </div>
+
+    <div class="col-sm-4 text-center">
+      <i class="fas fa-database fa-2x mb-3 text-warning"></i>
+      <h3>MS Office</h3>
+      <p>
+        Design and make Beautiful and attractive Lab reports using Ms Office.
+      </p>
+    </div>
+  </div>
+</div> -->
+<br>
+<h1 class="text-dark mb-5 mt-4 border-bottom border-dark col-lg-10 mx-auto text-center ">SERVICES</h1>
+
+<section id="gallery">
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img
+            src="{% static 'core/images/laptop.jpg' %}"
+            alt=""
+            class="card-img-top"
+          />
+         
+          <h5 class="bg-warning mt-4 text-center text-dark" style="font-weight: bold;height: 50px;padding-top: 10px;">Responsive Website</h5>
+          <div class="card-body">
+
+            <p class="card-text">
+              If you need website that adjust in all devices like mobile phone,
+              laptops, PC etc., so don't worry I...
+            </p>
+            <h6>Developer : Engr Tufail Khan</h6>
+            <a href="" class="btn btn-outline-success btn-sm"
+              >Your Requirments</a
+            >
+            <a href="" class="btn-lg"><i class="fab fa-whatsapp"></i></a>
+            <a href="" class="btn-lg"><i class="fas fa-envelope-open"></i></a>
+            <a href="" class="btn-lg"
+              ><i class="fab fa-facebook-messenger"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img
+            src="{% static 'core/images/responsive.jpg' %}"
+            alt=""
+            class="card-img-top"
+          />
+          <h5 class="bg-warning mt-4 text-center text-dark" style="font-weight: bold;height: 50px;padding-top: 10px;">Ecommerce Website</h5>
+          <div class="card-body">
+
+            <p class="card-text">
+              Do you need a Ecommerce website? If yes, you are at right place, I
+              can build your Ecommerce website...
+            </p>
+            <h6>Developer : Engr Tufail Khan</h6>
+            <a href="" class="btn btn-outline-success btn-sm"
+              >Your Requirments</a
+            >
+            <a href="" class="btn-lg"><i class="fab fa-whatsapp"></i></a>
+            <a href="" class="btn-lg"><i class="fas fa-envelope-open"></i></a>
+            <a href="" class="btn-lg"
+              ><i class="fab fa-facebook-messenger"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img
+            src="{% static 'core/images/responsive1.jpg' %}"
+            alt=""
+            class="card-img-top"
+            style="height: 235px;"
+          />
+          <h5 class="bg-warning mt-4 text-center text-dark" style="font-weight: bold;height: 50px;padding-top: 10px;">Get Complete Website</h5>
+          <div class="card-body">
+            <h5 class="card-title" style="font-weight: bold;">Get Complete Website</h5>
+            <p class="card-text">
+              I can create your complete website according to your requirements.
+              Just share your requirement and d...
+            </p>
+            <h6>Developer : Engr Tufail Khan</h6>
+            <a href="" class="btn btn-outline-success btn-sm"
+              >Your Requirments</a
+            >
+            <a href="" class="btn-lg"><i class="fab fa-whatsapp"></i></a>
+            <a href="" class="btn-lg"><i class="fas fa-envelope-open"></i></a>
+            <a href="" class="btn-lg"
+              ><i class="fab fa-facebook-messenger"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img
+            src="{% static 'core/images/web.jpg' %}"
+            alt=""
+            class="card-img-top"
+          />
+          <h5 class="bg-warning mt-4 text-center text-dark" style="font-weight: bold;height: 50px;padding-top: 10px;">Web Application</h5>
+          <div class="card-body">
+
+            <p class="card-text">
+              Any kind of Application you need, i can build that will work according to your given requirements. L...
+            </p>
+            <h6>Developer : Engr Tufail Khan</h6>
+            <a href="" class="btn btn-outline-success btn-sm"
+              >Your Requirments</a
+            >
+            <a href="" class="btn-lg"><i class="fab fa-whatsapp"></i></a>
+            <a href="" class="btn-lg"><i class="fas fa-envelope-open"></i></a>
+            <a href="" class="btn-lg"
+              ><i class="fab fa-facebook-messenger"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img
+            src="{% static 'core/images/api.jpg' %}"
+            alt=""
+            class="card-img-top"
+            style="height: 220px;"
+          />
+          <h5 class="bg-warning mt-4 text-center text-dark" style="font-weight: bold;height: 50px;padding-top: 10px;">Rest API</h5>
+          <div class="card-body">
+
+            <p class="card-text">
+              API is the application programming interface, If you need API for your Django website, then I can ma...
+            </p>
+            <h6>Developer : Engr Tufail Khan</h6>
+            <a href="" class="btn btn-outline-success btn-sm"
+              >Your Requirments</a
+            >
+            <a href="" class="btn-lg"><i class="fab fa-whatsapp"></i></a>
+            <a href="" class="btn-lg"><i class="fas fa-envelope-open"></i></a>
+            <a href="" class="btn-lg"
+              ><i class="fab fa-facebook-messenger"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-lg-4 mb-4">
+        <div class="card">
+          <img
+            src="{% static 'core/images/static.jpg' %}"
+            alt=""
+            class="card-img-top"
+            style="height: 220px;"
+          />
+          <h5 class="bg-warning mt-4 text-center text-dark" style="font-weight: bold;height: 50px;padding-top: 10px;">Static website & Dynamic website</h5>
+          <div class="card-body">
+
+            <p class="card-text">
+              Which kind of website you need? Static website OR Dynamic website? I can build both kind of website ...
+            </p>
+            <h6>Developer : Engr Tufail Khan</h6>
+            <a href="" class="btn btn-outline-success btn-sm"
+              >Your Requirments</a
+            >
+            <a href="" class="btn-lg"><i class="fab fa-whatsapp"></i></a>
+            <a href="" class="btn-lg"><i class="fas fa-envelope-open"></i></a>
+            <a href="" class="btn-lg"
+              ><i class="fab fa-facebook-messenger"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock content %}
